@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import HeaderLinks from "../Header/HeaderLinks.jsx";
 
 import imagine from "assets/img/sidebar-3.jpg";
-import logo from "assets/img/reactlogo.png";
+import logo from "assets/img/joe_tools.png";
 
 import dashboardRoutes from "routes/dashboard.jsx";
 
@@ -43,7 +43,7 @@ class Sidebar extends Component {
             className="simple-text logo-mini"
           >
             <div className="logo-img">
-              <img src={logo} alt="logo_image" />
+              <img className="logo_image" src={logo} alt="logo_image" />
             </div>
           </a>
           <a

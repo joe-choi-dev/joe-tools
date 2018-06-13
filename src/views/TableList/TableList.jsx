@@ -13,7 +13,7 @@ class TableList extends Component {
             <Col md={12}>
               <Card
                 title="DT Titles"
-                category="2018"
+                category="May 2018"
                 ctTableFullWidth
                 ctTableResponsive
                 content={

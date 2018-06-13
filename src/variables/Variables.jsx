@@ -247,10 +247,10 @@ var style = {
 // // // For tables
 // //
 //
-const thArray = ["ID", "Date", "Passage", "Title", "Theme"];
+const thArray = ["ID", "Date", "Passage", "Title", "Key Phrase"];
 const tdArray = [
-  ["1", "2018-01-01", "Philippians 1", "Greetings", "Church"],
-  ["2", "2018-01-01", "Philippians 2", "Following Christ", "Discipleship"],
+  ["1", "2018-05-07", "Philippians 1:1-6", "Remembering People In My Prayers", "\"I thank my God in all my rememberance of you\""],
+  ["2", "2018-05-08", "Philippians 1:7-11", "Personal Preference vs. Fellow Redeemed Sinners", "\"I hold you in my heart for you are all Partakers of Grace\""],
 ];
 
 //
