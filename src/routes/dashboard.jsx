@@ -21,32 +21,44 @@ const dashboardRoutes = [
     component: UserProfile
   },
   {
-    path: "/table",
-    name: "Table List",
+    path: "/dt",
+    name: "DT",
     icon: "pe-7s-note2",
     component: TableList
   },
   {
-    path: "/typography",
-    name: "Typography",
+    path: "/messages",
+    name: "Messages",
     icon: "pe-7s-news-paper",
     component: Typography
   },
-  { path: "/icons", name: "Icons", icon: "pe-7s-science", component: Icons },
-  { path: "/maps", name: "Maps", icon: "pe-7s-map-marker", component: Maps },
   {
-    path: "/notifications",
-    name: "Notifications",
-    icon: "pe-7s-bell",
-    component: Notifications
+    path: "/verses",
+    name: "Memory Verses",
+    icon: "pe-7s-anchor",
+    component: Typography
   },
   {
-    upgrade: true,
-    path: "/upgrade",
-    name: "Upgrade to PRO",
-    icon: "pe-7s-rocket",
-    component: Upgrade
+    path: "/books",
+    name: "Books",
+    icon: "pe-7s-bookmarks",
+    component: Typography
   },
+  // { path: "/icons", name: "Icons", icon: "pe-7s-science", component: Icons },
+  // { path: "/maps", name: "Maps", icon: "pe-7s-map-marker", component: Maps },
+  // {
+  //   path: "/notifications",
+  //   name: "Notifications",
+  //   icon: "pe-7s-bell",
+  //   component: Notifications
+  // },
+  // {
+  //   upgrade: true,
+  //   path: "/upgrade",
+  //   name: "Upgrade to PRO",
+  //   icon: "pe-7s-rocket",
+  //   component: Upgrade
+  // },
   { redirect: true, path: "/", to: "/dashboard", name: "Dashboard" }
 ];
 
