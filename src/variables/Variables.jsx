@@ -255,6 +255,17 @@ const tdArray = [
 
 //
 // //
+// // // For messages
+// //
+//
+const mhArray = ["ID", "Date", "Passage", "Title", "Key Phrase"];
+const mdArray = [
+  ["1", "2018-05-07", "Philippians 1:1-6", "Remembering People In My Prayers", "\"I thank my God in all my rememberance of you\""],
+  ["2", "2018-05-08", "Philippians 1:7-11", "Personal Preference vs. Fellow Redeemed Sinners", "\"I hold you in my heart for you are all Partakers of Grace\""],
+];
+
+//
+// //
 // // // For icons
 // //
 //
